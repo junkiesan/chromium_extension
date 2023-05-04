@@ -1,0 +1,12 @@
+{
+  "name": "Titres rouges",
+  "version": "1.0",
+  "manifest_version": 2,
+  "description": "Transforme tous les titres h1 d'une page en rouge",
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    }
+  ]
+}
